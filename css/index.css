@@ -29,7 +29,20 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+}
+.header {
+    display: flex;
+    justify-content:center;
+}
+.links {
+    padding: 25px
+}
+
+.roadpic{
+    display: flex;
+    justify-content: center;
+    padding-bottom:25px  ;
 }
 ol, ul {
 	list-style: none;
@@ -110,6 +123,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color:rgb(236, 185, 90);
+}
+#box3 {
+    background-color: teal;
+}
+#box4 {
+    background-color: orange;
+}
+#box5 {
+    background-color:red;
+}
+#box6 {
+    background-color: green;
+}
+#box7 {
+    background-color: purple;
+}
+#box8 {
+    background-color:pink;
+}
+#box9 {
+    background-color: darkorchid;
+}
+#box10 {
+    background-color:rgb(10, 177, 233);
 }
 
 .bottom-content {
