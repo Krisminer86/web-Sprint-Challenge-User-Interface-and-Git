@@ -202,10 +202,9 @@ span {
 p {
     line-height: 1.6;
 }
-.learn {
-    border: solid black;  
-}
-.section1 {
-    display: inline-block;
-    
+
+.pictures {
+    display: flex;
+    align-content: center;
+
 }
