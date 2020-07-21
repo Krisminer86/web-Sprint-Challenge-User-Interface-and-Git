@@ -26,17 +26,19 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+
 }
 body {
     line-height: 1;
-
-
-
+    background-color: white;
+    border-left: 30rem solid black ;
+    border-right: 30rem solid black;
 }
 .header {
     display: flex;
     justify-content:center;
+    
 }
 .links {
     padding: 25px
@@ -46,6 +48,8 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom:25px  ;
+    
+    
 }
 ol, ul {
 	list-style: none;
@@ -64,9 +68,6 @@ table {
 
 }
 
-* {
-    box-sizing: border-box
-}
 
 html, body {
     height: 100%;
@@ -86,6 +87,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    border-bottom: 1px dashed black; 
 }
 
 .top-content {
@@ -94,6 +96,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+   
 }
 
 .top-content .text-container {
@@ -162,22 +165,28 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    /*margin: 0 2% 20px;*/
     justify-content: space-around;
+   
+
 }
 
 .bottom-content .text-container {
+  
     padding-right: 4%;
+    
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
+ 
 }
 
 footer {
-    width: 60%;
+    width: 100%;
     background: black;
-
+   
+     
+     
 }
 
 footer nav {
@@ -187,6 +196,8 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
+    
 }
 
 footer nav a {
@@ -201,10 +212,39 @@ span {
 }
 p {
     line-height: 1.6;
+ 
 }
 
 .pictures {
     display: flex;
-    align-content: center;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    
+    
+    }
 
+.section1 {
+    padding: 3rem;
+    
+    
+    }
+
+.section2 {
+    padding: 3rem;
+    
+    
+
+   
+}
+.learnmore {
+    box-sizing: content-box;
+    width: 25%;
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 2rem;
+} 
+
+.closing {
+    padding: 3rem;    
 }
